@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <script>
+        // question #1
+        document.write("<h1> question #1<h1>")
+        var a=10;
+        document.write("Reasult:<br>")
+        document.write("The vale of a is:"+a +"<hr>");
+        ++a;
+        document.write("<br>the value of ++a is:"+a)
+        document.write("<br>Now the value of a is:"+a+"<br>")
+        a++;
+        document.write("<br>the value of a++ is:"+a)
+        document.write("<br> Now the value of a is:"+a+"<br>")
+        --a;
+        document.write("<br>the value of --a is:"+a)
+        document.write("<br> Now the value of a is:"+a+"<br>")
+        a--;
+        document.write("<br>the value of a-- is:"+a)
+        document.write("<br>the value of a is:"+a+"<br><br>")
+
+        // var a=5,b=2;
+        //  var res=--a - --b + ++b + b--;
+        //  document.write("<br>"+res)
+        // question #2
+        document.write(" question #2<br>")
+         var a=4,b=2;
+         var res=a+a+a+a;
+         --a;
+         document.write("<Br>"+a);
+         --a - --b;
+         document.write("<Br>"+a);
+        --a - --b + ++b;
+        document.write("<Br>"+a);
+        --a - --b + ++b + b--;
+        document.write("<Br>"+a);
+        document.write("<Br>"+res);
+
+    //    q#3 take input from user and also greet him
+    // console.log(prompt("what is your name"))
+    // console.log(prompt("hi how are you?"))
+//    q#4 TAKE A USER INPUT AND DISPLY THE TABELS
+var user=(prompt("which table you want?"))
+console.log(user+"x 1 ="+(user*1))
+console.log(user+"x 2 ="+(user*2))
+console.log(user+"x 3 ="+(user*3))
+console.log(user+"x 4 ="+(user*4))
+console.log(user+"x 5 ="+(user*5))
+console.log(user+"x 6 ="+(user*6))
+console.log(user+"x 7 ="+(user*7))
+console.log(user+"x 8 ="+(user*8))
+console.log(user+"x 9 ="+(user*9))
+console.log(user+"x 10 ="+(user*10))
+
+
+// q#6
+console.table(("subjects")+"      "    +("totalmarks")    +"   "               + ("NUMBER")) 
+console.table(prompt("subjects")+"          " +prompt("totalmarks"+tnum)+"           "  + prompt("NUMBER"+num)) 
+console.table(prompt("subjects")+"          "    +prompt("totalmarks"+tnum)+"        "     + prompt("NUMBER"+num))
+console.table(prompt("subjects")+"          "    +prompt("totalmarks"+tnum)+"        "       + prompt("NUMBER"+num))
+var a=tnum/num*100;
+var tnum;
+var num;
+console.log("Percentage"+a+"%")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+<script>
+    // question 1
+    var sname=[];
+    // question 2
+    var sname={};
+    // question 3
+    var str_array=["a","b","c","d","e"];
+    var num_array=[1,2,3,4,5]
+    var boolen_array=["true","false"];
+    var mixed_array=["a","b","c",1,2,3,"true","false"];
+    // question 4
+    var qualification=["1) SSC","2) HSC","3) BSC","4) BS","5) BCOM","6) MS","7) M.PHIL","8) PHD"]
+    document.write("<h1>QUALIFICATION:</h1>")
+    document.write("<b>"+qualification[0]+"<Br><b>");
+    document.write("<b>"+qualification[1]+"<Br><b>");
+    document.write("<b>"+qualification[2]+"<Br><b>");
+    document.write("<b>"+qualification[3]+"<Br><b>");
+    document.write("<b>"+qualification[4]+"<Br><b>");
+     document.write("<b>"+qualification[5]+"<Br><b>");
+     document.write("<b>"+qualification[6]+"<Br><b>");
+    document.write("<b>"+qualification[7]+"<Br><b>");
+
+    // question 8
+      var student=["Michal","Jhon","Tony"];
+      var score=["320","230","480"];
+      var percentage=["64%","46%","96%"];
+      document.write("<h1>STUDENTS NAME , SCORE , PERCENTAGES: </h1>")
+    document.write("<b>1) score of <b>"+student[0] +  "is"+score[0]  + "Percentage:" +percentage[0]+"<br>")
+    document.write("<b>2) score of <b>"+student[1] +  "is"+score[1]  + "Percentage:" +percentage[1]+"<br>")
+    document.write("<b>3) score of <b>"+student[2] +  "is"+score[2]  + "Percentage:" +percentage[2]+"<br><br>")
+   
+
+//     question 9
+
+var color=["Red","Blue","Green","Pimk","Yellow","White","Black","Pink"]
+document.write("<h1>Colors:</h1><br>")
+document.write(color+"<br>");
+document.write("<h1>To delet first color</h1>")
+color.shift()
+document.write(color+"<br>")
+document.write("<h1>To delet last color</h1>")
+color.pop()
+document.write(color+"<br><br>")
+// var firstcolor=prompt("what color  you want to come first? or to add first color or two colors")
+// color.unshift(firstcolor);
+// alert(color);
+// var lastcolor=prompt("what color  you want to come last?")
+// color.push(lastcolor)
+// alert(color)
+
+// question 10
+
+var score=["320","230","480","120"]
+document.write("<h1>SCORE OF STUDENTS</h1>")
+document.write("score of students: " +score+"<br><br>")
+document.write("orderd score of students: " +score[3]+","+score[1]+","+score[0]+","+score[2]+"<br>")
+
+// question 11
+
+var cities=["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
+document.write("<H1>CITIES</H1>");
+document.write("<br><b>Cities list:</b><br>");
+document.write(cities);
+document.write("<br> <b>Selected Cities :</b><br>");
+// document.write(cities[2]+","+cities[3]+"<br><br>")
+var selectedcities=cities.slice(cities[2],cities[3])
+document.write(selectedcities)
+
+
+// question 13
+ 
+var devices=["Keyboard","Mouse","Printer","Moniter","Cpu"]
+document.write("<b><h1>DEVICES:</h1></b><br>")
+document.write(devices+"<br><br>");
+document.write("<b>out</b>:"+"<br>")
+document.write(devices[0]+"<br>")
+document.write("<b>out</b>:"+"<br>")
+document.write(devices[1]+"<br>")
+document.write("<b>out</b>:"+"<br>")
+document.write(devices[2]+"<br>")
+document.write("<b>out</b>:"+"<br>")
+document.write(devices[3]+"<br>")
+document.write("<b>out</b>:"+"<br>")
+document.write(devices[4]+"<br>")
+
+
+// question 14
+
+var devices=["Keyboard","Mouse","Printer","Moniter","Cpu"]
+document.write("<b><h1>DEVICES:</h1></b><br>")
+document.write(devices+"<br><br>");
+document.write("<b>out</b>:"+"<br>")
+document.write(devices[4]+"<br>")
+document.write("<b>out</b>:"+"<br>")
+document.write(devices[3]+"<br>")
+document.write("<b>out</b>:"+"<br>")
+document.write(devices[2]+"<br>")
+document.write("<b>out</b>:"+"<br>")
+document.write(devices[1]+"<br>")
+document.write("<b>out</b>:"+"<br>")
+document.write(devices[0]+"<br><br><br>")
+
+
+// question 15
+document.write("<h1>drop down</h1>")
+document.write(ani)
+
+</script>
+</head>
+<body>
+    
+  <select style="color: rgb(211, 15, 15); background-color: aqua;" name="mobiles" id="ani">
+    <option value="samsung">samsung</option>
+    <option value="iphone">iphone</option>
+    <option value="nokia">nokia</option>
+    <option value="sony">sony</option>
+    <option value="haire">haire</option>
+    <option value="redmi">redmi</option>
+  </select>
+</body>
+</html>
